@@ -334,3 +334,9 @@ Vous avez brillamment navigué à travers des concepts avancés d’analyse spat
 
 🚀 Continuez sur cette lancée et appliquez ces compétences à votre TP2. 
 
+---------------------------------- Modification du Lab 3 pour Hexagones
+
+1 - Créer un write pour les parcs dans la bd
+2 - Créer un SQL Executor avec le fichier createHexagons.sql dans le dossier ci-joint
+3 - Écrire le résultat dans la BD et le lié avec l'étape #3
+![alt text](image.png)
