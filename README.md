@@ -9,8 +9,8 @@
   Email : [glogowski.clement@uqam.ca](mailto:glogowski.clement@uqam.ca)
 
 ## 👨‍🔬 Démonstrateur
-- **---**  
-  Email : [ ]( )
+- **Louna Masliah**  
+  Email : [masliah.louna@courrier.uqam.ca ](mailto:masliah.louna@courrier.uqam.ca)
 
 ## 📝 Description du cours
 
