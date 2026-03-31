@@ -4,7 +4,7 @@
 - **17 mars 2026**
 
 
-## 🎯 Objectifs du cours 9
+## 🎯 Objectifs du cours 10
 1. Comprendre les bases de **HTML**, **CSS**, et **JavaScript** pour le développement web.
 2. Introduction aux formats **JSON** et **GeoJSON** pour les données géospatiales.
 3. Apprendre à utiliser les **APIs cartographiques** pour le WebMapping.
