@@ -32,7 +32,7 @@ services:
       - GEOSERVER_ADMIN_PASSWORD=geoserver
       - GEOSERVER_DATA_DIR=/opt/geoserver/data_dir
       - GEOSERVER_CONTEXT_PATH=/geoserver
-      - PROXY_BASE_URL=https://special-train-gv4r9g5gj4cvp7-8080.app.github.dev/geoserver
+      - PROXY_BASE_URL=https://legendary-halibut-9g75vpqprgh7gg7-8080.app.github.dev/geoserver
     volumes:
       - ./geoserver_data:/opt/geoserver/data_dir
     restart: always
