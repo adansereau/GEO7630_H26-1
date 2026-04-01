@@ -15,7 +15,7 @@
 
 
 ### ** Présentation générale**
--  [Cours 12 - Slides](https://docs.google.com/presentation/d/1CERWKEY3ZjXm6kVr9Amvyxb3kb8OHX65rNUgedP-PC4/edit?usp=sharing)
+-  [Cours 12 - Slides](https://docs.google.com/presentation/d/1Xw_uBMoeabKVfe2PfnQjhF2P3kbLeiz8Rqjy3Dt2yi8/edit?usp=sharing)
 
 
 ## 📋 Contenu du cours
