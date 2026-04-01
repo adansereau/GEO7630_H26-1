@@ -1,4 +1,4 @@
-# 🧪 Lab 11 – Cartographie interactive avec MapLibreGL
+# 🧪 Lab 12 – Cartographie interactive avec MapLibreGL
 
 Ce laboratoire NE vous guide étape par étape dans la construction d'une **application web de cartographie interactive**.
 
