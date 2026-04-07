@@ -1,7 +1,7 @@
 /**
  * SOLUTION EXERCICE 2 - Extrusion 3D (Réponses Complètes)
  * ========================================================
- * Ceci est la version COMPLÉTÉE de Exercise2_Extrusion.js
+ * Ceci est la version COMPLÉTÉE de exercice2_Extrusion.js
  * À utiliser pour vérifier votre travail ou si vous êtes bloqué
  * 
  * Pour utiliser cette solution :
@@ -45,5 +45,5 @@ function generateExtrusion() {
     }
 }
 
-console.log('✅ Solution Exercise2_Extrusion chargée');
+console.log('✅ Solution exercice2_Extrusion chargée');
 console.log('Appelez: generateExtrusion() pour tester');

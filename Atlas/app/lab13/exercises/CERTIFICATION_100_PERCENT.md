@@ -12,9 +12,9 @@ Les trois exercices du Lab13 sont maintenant **100% complets et fonctionnels**. 
 
 | Exercice | TODOs | Stati | Couverture | Fonctionnel |
 |----------|--------|--------|-----------|------------|
-| Exercise1_Clusters | 19 | ✅ | 100% | ✅ OUI |
-| Exercise2_Extrusion | 14 | ✅ | 100% | ✅ OUI |
-| Exercise3_Heatmap | 37 | ✅ | 100% | ✅ OUI |
+| exercice1_Clusters | 19 | ✅ | 100% | ✅ OUI |
+| exercice2_Extrusion | 14 | ✅ | 100% | ✅ OUI |
+| exercice3_Heatmap | 37 | ✅ | 100% | ✅ OUI |
 | **TOTAL** | **70** | ✅ | **100%** | ✅ **OUI** |
 
 ---
@@ -23,10 +23,10 @@ Les trois exercices du Lab13 sont maintenant **100% complets et fonctionnels**. 
 
 ### ✅ Exercice 1 - Clusters
 
-**Code :** `Exercise1_Clusters.js`  
+**Code :** `exercice1_Clusters.js`  
 **TODOs :** 19 / 19 complètement définis  
-**Réponses :** `SOLUTION_Exercise1_Clusters.js`  
-**Mapping :** `MAPPING_Exercise1.md`  
+**Réponses :** `SOLUTION_exercice1_Clusters.js`  
+**Mapping :** `MAPPING_exercice1.md`  
 
 **Couverture :**
 - ✅ Configuration source : 5 TODOs
@@ -46,10 +46,10 @@ Les trois exercices du Lab13 sont maintenant **100% complets et fonctionnels**. 
 
 ### ✅ Exercice 2 - Extrusion
 
-**Code :** `Exercise2_Extrusion.js`  
+**Code :** `exercice2_Extrusion.js`  
 **TODOs :** 14 / 14 complètement définis  
-**Réponses :** `SOLUTION_Exercise2_Extrusion.js`  
-**Mapping :** `MAPPING_Exercise2.md`  
+**Réponses :** `SOLUTION_exercice2_Extrusion.js`  
+**Mapping :** `MAPPING_exercice2.md`  
 
 **Couverture :**
 - ✅ Couleur extrusion : 1 TODO
@@ -71,10 +71,10 @@ Les trois exercices du Lab13 sont maintenant **100% complets et fonctionnels**. 
 
 ### ✅ Exercice 3 - Heatmap
 
-**Code :** `Exercise3_Heatmap.js`  
+**Code :** `exercice3_Heatmap.js`  
 **TODOs :** 37 / 37 complètement définis  
-**Réponses :** `SOLUTION_Exercise3_Heatmap.js`  
-**Mapping :** `MAPPING_Exercise3.md`  
+**Réponses :** `SOLUTION_exercice3_Heatmap.js`  
+**Mapping :** `MAPPING_exercice3.md`  
 
 **Couverture :**
 - ✅ Heatmap-weight : 5 TODOs
@@ -101,25 +101,25 @@ Les trois exercices du Lab13 sont maintenant **100% complets et fonctionnels**. 
 
 | Fichier | TODOs | Type |
 |---------|-------|------|
-| Exercise1_Clusters.js | 19 | À compléter |
-| Exercise2_Extrusion.js | 14 | À compléter |
-| Exercise3_Heatmap.js | 37 | À compléter |
+| exercice1_Clusters.js | 19 | À compléter |
+| exercice2_Extrusion.js | 14 | À compléter |
+| exercice3_Heatmap.js | 37 | À compléter |
 
 ### Solutions Complètes
 
 | Fichier | TODOs | Type |
 |---------|-------|------|
-| SOLUTION_Exercise1_Clusters.js | 0 | Complété |
-| SOLUTION_Exercise2_Extrusion.js | 0 | Complété |
-| SOLUTION_Exercise3_Heatmap.js | 0 | Complété |
+| SOLUTION_exercice1_Clusters.js | 0 | Complété |
+| SOLUTION_exercice2_Extrusion.js | 0 | Complété |
+| SOLUTION_exercice3_Heatmap.js | 0 | Complété |
 
 ### Mappings Détaillés
 
 | Fichier | Contenu |
 |---------|---------|
-| MAPPING_Exercise1.md | Tableau TODO ↔ Réponse (19 lignes) |
-| MAPPING_Exercise2.md | Tableau TODO ↔ Réponse (14 lignes) |
-| MAPPING_Exercise3.md | Tableau TODO ↔ Réponse (37 lignes) |
+| MAPPING_exercice1.md | Tableau TODO ↔ Réponse (19 lignes) |
+| MAPPING_exercice2.md | Tableau TODO ↔ Réponse (14 lignes) |
+| MAPPING_exercice3.md | Tableau TODO ↔ Réponse (37 lignes) |
 
 ### Guides Pédagogiques
 
@@ -140,7 +140,7 @@ Pour chaque exercice, vérifiez que :
 
 ```javascript
 // 1. Ouvrez F12 → Console dans le navigateur
-// 2. Collez le code de SOLUTION_Exercise1_Clusters.js
+// 2. Collez le code de SOLUTION_exercice1_Clusters.js
 // 3. Exécutez
 generateClusters()
 
@@ -285,12 +285,12 @@ console.log(map.getLayer('unclustered-point').filter) // ['!', ['has', 'point_co
 - [ ] Lire INDEX.md (orientation)
 - [ ] Lire GUIDE_ETUDIANT.js (stratégie)
 - [ ] Lire README.md (approche par exercice)
-- [ ] Compléter Exercise1_Clusters.js
-- [ ] Vérifier avec SOLUTION_Exercise1_Clusters.js
-- [ ] Compléter Exercise2_Extrusion.js
-- [ ] Vérifier avec SOLUTION_Exercise2_Extrusion.js
-- [ ] Compléter Exercise3_Heatmap.js
-- [ ] Vérifier avec SOLUTION_Exercise3_Heatmap.js
+- [ ] Compléter exercice1_Clusters.js
+- [ ] Vérifier avec SOLUTION_exercice1_Clusters.js
+- [ ] Compléter exercice2_Extrusion.js
+- [ ] Vérifier avec SOLUTION_exercice2_Extrusion.js
+- [ ] Compléter exercice3_Heatmap.js
+- [ ] Vérifier avec SOLUTION_exercice3_Heatmap.js
 - [ ] Compléter les checklists dans README.md
 
 ---
@@ -308,23 +308,23 @@ console.log(map.getLayer('unclustered-point').filter) // ['!', ['has', 'point_co
 
 ### Codes d'Exercice :
 
-- ✅ `Exercise1_Clusters.js` - **100% Complet**
-- ✅ `Exercise2_Extrusion.js` - **100% Complet**
-- ✅ `Exercise3_Heatmap.js` - **100% Complet**
+- ✅ `exercice1_Clusters.js` - **100% Complet**
+- ✅ `exercice2_Extrusion.js` - **100% Complet**
+- ✅ `exercice3_Heatmap.js` - **100% Complet**
 
 ### Solutions Références :
 
-- ✅ `SOLUTION_Exercise1_Clusters.js` - **100% Fonctionnel**
-- ✅ `SOLUTION_Exercise2_Extrusion.js` - **100% Fonctionnel**
-- ✅ `SOLUTION_Exercise3_Heatmap.js` - **100% Fonctionnel**
+- ✅ `SOLUTION_exercice1_Clusters.js` - **100% Fonctionnel**
+- ✅ `SOLUTION_exercice2_Extrusion.js` - **100% Fonctionnel**
+- ✅ `SOLUTION_exercice3_Heatmap.js` - **100% Fonctionnel**
 
 ---
 
 ## 📞 Support et Réference
 
 - **Guides** : INDEX.md → README.md → GUIDE_ETUDIANT.js → Exercices
-- **Solutions** : En cas de blocage, voir SOLUTION_ExerciseX.js
-- **Mappings** : Pour comparer, voir MAPPING_ExerciseX.md
+- **Solutions** : En cas de blocage, voir SOLUTION_exerciceX.js
+- **Mappings** : Pour comparer, voir MAPPING_exerciceX.md
 - **Modules Originaux** : ../generateClusters.js, ../generateExtrusion.js, ../generateHeatmap.js
 
 ---

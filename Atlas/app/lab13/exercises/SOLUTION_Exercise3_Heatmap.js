@@ -1,7 +1,7 @@
 /**
  * SOLUTION EXERCICE 3 - Heatmap (Réponses Complètes)
  * ===================================================
- * Ceci est la version COMPLÉTÉE de Exercise3_Heatmap.js
+ * Ceci est la version COMPLÉTÉE de exercice3_Heatmap.js
  * À utiliser pour vérifier votre travail ou si vous êtes bloqué
  * 
  * Pour utiliser cette solution :
@@ -104,5 +104,5 @@ function generateHeatmap() {
     registerLayerControl('heatmap', 'Heatmap');
 }
 
-console.log('✅ Solution Exercise3_Heatmap chargée');
+console.log('✅ Solution exercice3_Heatmap chargée');
 console.log('Appelez: generateHeatmap() pour tester');

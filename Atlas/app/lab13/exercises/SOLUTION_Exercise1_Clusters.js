@@ -1,7 +1,7 @@
 /**
  * SOLUTION EXERCICE 1 - Clusters (Réponses Complètes)
  * =====================================================
- * Ceci est la version COMPLÉTÉE de Exercise1_Clusters.js
+ * Ceci est la version COMPLÉTÉE de exercice1_Clusters.js
  * À utiliser pour vérifier votre travail ou si vous êtes bloqué
  * 
  * Pour utiliser cette solution :
@@ -94,5 +94,5 @@ function generateClusters() {
     registerLayerControl('unclustered-point', 'Points non clusterisés');
 }
 
-console.log('✅ Solution Exercise1_Clusters chargée');
+console.log('✅ Solution exercice1_Clusters chargée');
 console.log('Appelez: generateClusters() pour tester');
