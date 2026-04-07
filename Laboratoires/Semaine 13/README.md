@@ -1,16 +1,10 @@
-# Laboratoire cours 11-12
+# Laboratoire 13
 
-[**Laboratoire cours 11-12 ****1**](https://docs.google.com/document/d/1RMvJ2OjrlZe3YlsK7rlI5QAY4Ld-JLKV9fnR-8O9oAQ/edit#heading=h.6xp8lo9ezpif)
+[**Créer et styliser des clusters ]
 
-[**Prérequis : ****1**](https://docs.google.com/document/d/1RMvJ2OjrlZe3YlsK7rlI5QAY4Ld-JLKV9fnR-8O9oAQ/edit#heading=h.ow87l5ef1vz6)
+[**Créer et styliser une carte de chaleur (heatmap) ]
 
-[Objectif du laboratoire 6](https://docs.google.com/document/d/1RMvJ2OjrlZe3YlsK7rlI5QAY4Ld-JLKV9fnR-8O9oAQ/edit#heading=h.s1d1cfdc34oi)
-
-[**Créer et styliser des clusters ****7**](https://docs.google.com/document/d/1RMvJ2OjrlZe3YlsK7rlI5QAY4Ld-JLKV9fnR-8O9oAQ/edit#heading=h.86zhcmbby4fa)
-
-[**Créer et styliser une carte de chaleur (heatmap) ****9**](https://docs.google.com/document/d/1RMvJ2OjrlZe3YlsK7rlI5QAY4Ld-JLKV9fnR-8O9oAQ/edit#heading=h.t1qmum80efu0)
-
-[Créer et visualiser une couche de polygones extrudées 10](https://docs.google.com/document/d/1RMvJ2OjrlZe3YlsK7rlI5QAY4Ld-JLKV9fnR-8O9oAQ/edit#heading=h.jpcosgmr1kuw)
+[Créer et visualiser une couche de polygones extrudées]
 
 
 ##
