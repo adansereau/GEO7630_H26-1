@@ -8,7 +8,7 @@ var map = new maplibregl.Map({
 });
 
 // Variable pour stocker les couches de visualisation
-var myLayers = ['rdp', 'buffer', 'union', 'joined', 'grid', 'clusters', 'unclustered-point', 'heatmap', 'extrusion'];
+var myLayers = ['rdp', 'buffer', 'union', 'joined', 'grid', 'clusters', 'unclustered-point', 'heatmap', 'extrusion', 'cluster-count'];
 var registeredLayerIds = {};
 
 function updateFeatureCountOnMove() {

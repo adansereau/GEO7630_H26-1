@@ -40,9 +40,9 @@ Crée une visualisation de clusters/groupes de points pour afficher efficacement
 
    | Plage de points | Couleur | Rayon |
    |-----------------|---------|-------|
-   | 0-99 | Cyan (#51bbd6) | 20px |
-   | 100-749 | Jaune (#f1f075) | 30px |
-   | 750+ | Rose (#f28cb1) | 40px |
+   | 10 | Cyan (#51bbd6) | 5px |
+   | 20 | Jaune (#f1f075) | 20px |
+   | 30 | Rose (#f28cb1) | 40px |
 
 4. **Couche des points non-clusterisés**
    - Au zoom 15 et plus, les points individuels apparaissent

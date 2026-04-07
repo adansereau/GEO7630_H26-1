@@ -46,7 +46,7 @@ function generateClusters() {
      */
     map.addLayer({
         id: 'clusters',
-        type: 'TODO_0',
+        type: 'circle',
         source: 'TODO_0.1',
         filter: ['has', 'point_count'],
         paint: {

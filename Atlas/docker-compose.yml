@@ -1,20 +1,20 @@
 version: "3.4"
 services:
-  pg_tileserv:
-    image: "pramsey/pg_tileserv:latest"
-    ports:
-    - 8801:7800
-    environment:
-    - DATABASE_URL=postgresql://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/${DB_NAME}
-    restart: always
-  pg_featureserv:
-    image: "pramsey/pg_featureserv:latest"
-    ports:
-    - 9000:9000
-    environment:
-    # CHANGE connection string from .env file
-    - DATABASE_URL=postgresql://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/${DB_NAME}
-    restart: always
+  # pg_tileserv:
+  #   image: "pramsey/pg_tileserv:latest"
+  #   ports:
+  #   - 8801:7800
+  #   environment:
+  #   - DATABASE_URL=postgresql://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/${DB_NAME}
+  #   restart: always
+  # pg_featureserv:
+  #   image: "pramsey/pg_featureserv:latest"
+  #   ports:
+  #   - 9000:9000
+  #   environment:
+  #   # CHANGE connection string from .env file
+  #   - DATABASE_URL=postgresql://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/${DB_NAME}
+  #   restart: always
   server-web:
     image: nginx
     ports:
