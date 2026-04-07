@@ -15,53 +15,34 @@ function removeAllLayersAndSources() {
             map.removeSource(`${layerName}-source`);
         }
     });
-}
 
-// Cette fonction charge une couche de points aléatoires sur la carte
-function loadRandomPointsLayer() {
-    // Supprimer toutes les couches et sources de la carte
-    removeAllLayersAndSources()
-
-    // Ajouter une source de données de points aléatoires
-    map.addSource('rdp-source', {
-        type: "geojson",
-        data: randomPoints
-    })
-
-    // Ajouter une couche de points aléatoires à la carte
-    map.addLayer({
-        'id': 'rdp',
-        'type': 'circle',
-        'source': 'rdp-source',
-        'paint': {
-            'circle-radius': {
-                'base': 1.75,
-                'stops': [
-                    [12, 2],
-                    [22, 180]
-                ]
-            },
-        }
-    })
-
-    // Met à jour le compteur de points avec la fonction du module dynamicCounts.js
-    if (typeof featureCount === 'function') {
-        console.log('Calling featureCount() from layerHandling.js after idle');
-        map.once('idle', function() {
-            console.log('Map idle reached, running featureCount()');
-            featureCount();
-        });
+    if (typeof clearLayerMenu === 'function') {
+        clearLayerMenu();
     }
 }
 
-// // Ajouter un événement de clic sur le bouton "resetMap"
-// // pour supprimer toutes les couches et sources de la carte
+
+function getLayerVisibility(layerId) {
+    var layer = map.getLayer(layerId);
+    if (!layer) return true;
+    var visibility = map.getLayoutProperty(layerId, 'visibility');
+    return visibility !== 'none';
+}
+
+
+/**
+ * Active ou désactive l'affichage d'une couche.
+ * @param {string} layerId
+ * @param {boolean} visible
+ */
+function setLayerVisibility(layerId, visible) {
+    if (!map.getLayer(layerId)) return;
+    map.setLayoutProperty(layerId, 'visibility', visible ? 'visible' : 'none');
+}
+
+
+// Ajouter un événement de clic sur le bouton "resetMap"
+// pour supprimer toutes les couches et sources de la carte
 document
     .getElementById('resetMap')
     .addEventListener('click', removeAllLayersAndSources);
-
-// Ajouter un événement de clic sur le bouton "loadLayer" 
-// pour charger la couche de points aléatoires
-document
-    .getElementById('loadLayer')
-    .addEventListener('click', loadRandomPointsLayer);

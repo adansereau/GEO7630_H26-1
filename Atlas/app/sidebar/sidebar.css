@@ -94,6 +94,30 @@ main {
   background-color: #d2f4ea;
 }
 
+#layerList .list-group-item {
+  padding: 0.65rem 0.75rem;
+  margin-bottom: 0.25rem;
+}
+
+#layerList .form-check {
+  margin: 0;
+  padding: 0.25rem 0.35rem;
+  border-radius: 0.35rem;
+  background-color: rgba(255, 255, 255, 0.04);
+  display: inline-flex;
+  align-items: center;
+}
+
+.layer-control-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.layer-label {
+  flex: 1 1 auto;
+}
+
 .scrollarea {
   overflow-y: auto;
 }

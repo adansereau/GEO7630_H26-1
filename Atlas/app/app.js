@@ -8,7 +8,8 @@ var map = new maplibregl.Map({
 });
 
 // Variable pour stocker les couches de visualisation
-var myLayers = ['rdp', 'buffer', 'union', 'joined', 'grid', 'clusters', 'heatmap', 'extrusion'];
+var myLayers = ['rdp', 'buffer', 'union', 'joined', 'grid', 'clusters', 'unclustered-point', 'heatmap', 'extrusion'];
+var registeredLayerIds = {};
 
 /**
  * Génère une visualisation de clusters à partir des points aléatoires
@@ -49,6 +50,7 @@ function generateClusters() {
             ]
         }
     });
+    registerLayerControl('clusters', 'Clusters');
     
     // Couche pour les points non-clusterisés
     map.addLayer({
@@ -63,6 +65,7 @@ function generateClusters() {
             'circle-stroke-color': '#fff'
         }
     });
+    registerLayerControl('unclustered-point', 'Points non clusterisés');
 }
 
 /**
@@ -125,6 +128,7 @@ function generateHeatmap() {
             ]
         }
     });
+    registerLayerControl('heatmap', 'Heatmap');
 }
 
 /**
@@ -161,6 +165,7 @@ function generate3D() {
                 'fill-extrusion-opacity': 0.6
             }
         }, 'water');
+        registerLayerControl('extrusion', '2.5D extrusion');
     }
 }
 

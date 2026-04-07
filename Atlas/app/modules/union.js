@@ -36,6 +36,8 @@ function generateGrid () {
             "line-opacity": 0.25
         }
     })
+
+    registerLayerControl('grid', 'Grille hexagonale');
 }
 
 /**
@@ -81,6 +83,8 @@ function union() {
                 "fill-opacity": 0.5
             }
         })
+
+        registerLayerControl('joined', 'Jointure spatiale');
     }
 
 /**
@@ -117,6 +121,8 @@ function dissolver () {
              'fill-opacity': 0.5
          }
      })
+
+     registerLayerControl('union', 'Fusion');
 }
 
 /**

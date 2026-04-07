@@ -113,7 +113,11 @@
       </ul> -->
 
       <hr>
-      <div class="dropdown">
+      <div id="layerControlPanel" class="mb-3">
+        <h6 class="text-white">Couches Map</h6>
+        <div id="layerList" class="list-group list-group-flush text-white"></div>
+      </div>
+      <div class="dropdown mt-auto">
         <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" id="dropdownUser1"
           data-bs-toggle="dropdown" aria-expanded="false">
           <img src="https://uqam.ca/wp-content/themes/uqam2019/assets/images/uqam-logo.svg" alt="" width="32"
@@ -224,6 +228,7 @@
   <!-- ================================================== -->
 
   <script type='text/javascript' src="./modules/layerHandling.js"></script>
+  <script type='text/javascript' src="./modules/layerLegend.js"></script>
   <script type='text/javascript' src="./modules/dynamicCounts.js"></script>
   <script type='text/javascript' src="./modules/union.js"></script>
   <script type='text/javascript' src="./modules/createRandomPoints.js"></script>

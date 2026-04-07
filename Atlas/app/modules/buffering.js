@@ -44,6 +44,8 @@ function createBuffer(featureCollection, radiusInput) {
         'fill-color': 'rgba(12,122,122,0.5)'
       }
     })
+
+    registerLayerControl('buffer', 'Buffer');
   }
   
   // Ajoute un événement 'click' sur l'élément HTML avec l'id 'buffer' pour charger le buffer sur la carte Mapbox
