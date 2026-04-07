@@ -43,6 +43,15 @@ function loadRandomPointsLayer() {
             },
         }
     })
+
+    // Met à jour le compteur de points avec la fonction du module dynamicCounts.js
+    if (typeof featureCount === 'function') {
+        console.log('Calling featureCount() from layerHandling.js after idle');
+        map.once('idle', function() {
+            console.log('Map idle reached, running featureCount()');
+            featureCount();
+        });
+    }
 }
 
 // // Ajouter un événement de clic sur le bouton "resetMap"

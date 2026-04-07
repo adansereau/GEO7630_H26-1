@@ -25,6 +25,34 @@ function dynamicCount() {
  * @returns {void}
  */
 function featureCount() {
-    var features = map.queryRenderedFeatures({ layers: ['rdp'] });
-    document.getElementById('featureCount').value = features.length;
+    var renderedFeatures = map.queryRenderedFeatures({ layers: ['rdp'] });
+    var count = renderedFeatures.length;
+    console.log('featureCount() called');
+    console.log('Rendered features in rdp layer:', count);
+
+    if (count === 0) {
+        if (map.getSource('rdp-source')) {
+            try {
+                var sourceFeatures = map.querySourceFeatures('rdp-source');
+                console.log('Source features in rdp-source:', sourceFeatures.length);
+                if (sourceFeatures.length > 0) {
+                    count = sourceFeatures.length;
+                }
+            } catch (error) {
+                console.warn('featureCount: querySourceFeatures failed', error);
+            }
+        }
+
+        if (count === 0 && window.randomPoints && window.randomPoints.features) {
+            console.log('Source randomPoints length:', window.randomPoints.features.length);
+            count = window.randomPoints.features.length;
+        }
+    }
+
+    var counterInput = document.getElementById('featureCount');
+    if (counterInput) {
+        counterInput.value = count;
+    } else {
+        console.warn('featureCount: element #featureCount introuvable');
+    }
 }

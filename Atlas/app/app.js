@@ -164,6 +164,20 @@ function generate3D() {
     }
 }
 
+function updateFeatureCountOnMove() {
+    if (typeof featureCount === 'function') {
+        console.log('Calling featureCount() from map moveend event');
+        featureCount();
+    } else {
+        console.warn('featureCount function not available in map moveend event');
+    }
+}
+
+map.on('load', function() {
+    map.on('moveend', updateFeatureCountOnMove);
+    updateFeatureCountOnMove();
+});
+
 // Ajouter les event listeners pour les boutons de visualisation avancée
 document.getElementById('generateClusters').addEventListener('click', generateClusters);
 document.getElementById('generateHeatmap').addEventListener('click', generateHeatmap);

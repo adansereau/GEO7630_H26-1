@@ -48,7 +48,18 @@ function loadRandomPointsLayer() {
                 ]
             },
         }
-    }) 
+    });
+
+    // Met à jour le compteur de points avec la fonction du module dynamicCounts.js
+    if (typeof featureCount === 'function') {
+        console.log('Calling featureCount() from createRandomPoints.js after idle');
+        map.once('idle', function() {
+            console.log('Map idle reached, running featureCount()');
+            featureCount();
+        });
+    } else {
+        console.warn('featureCount function not available in createRandomPoints.js');
+    }
 }
 
 // Ajoute un événement 'click' sur le bouton 'generateRandomPoints' qui appelle la fonction 'loadRandomPointsLayer'
