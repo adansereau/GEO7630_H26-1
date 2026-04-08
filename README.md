@@ -78,8 +78,7 @@ Le cours approfondit également les diverses formes de représentation adaptées
 | **31 mars 2026**    | Webmapping (Back-end) : Docker, PostgreSQL/PostGIS   | Développement intermédiaire          |
 | **7 avril 2026**    | Concepts avancés de webmapping — Partie 1            | Visualisation avancée                |
 | **14 avril 2026**   | Concepts avancés de webmapping — Partie 2            | Préparation à la mise en production  |
-| **21 avril 2026**   | Révisions et aide au TP3                             | —                                    |
-| **28 avril 2026**   | Examen final                                         | Évaluation finale — **Remise TP3**   |
+| **21 avril 2026**   | Examen final                                         | Évaluation finale — **Remise TP3**   |
 
 
 ---
